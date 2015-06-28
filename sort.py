@@ -6,19 +6,28 @@
 
 """
 
+def numOfFactors(val):
+  test = 1
+  total = 0
+  while test < val:
+    if val % test == 0:
+      total += 1
+    test += 1
+  return total;
 
 def sortByOrderOfFactor(list):
-	print list
+	
+  print sorted(list, key = numOfFactors)
 
 
 
 def main():
-	num_list = [2, 3, 9, 4, 6]
+  num_list = [2, 3, 9, 4, 6]
 
-	sortByOrderOfFactor(num_list)
+  sortByOrderOfFactor(num_list)
 
 
 
 
 if __name__ == '__main__':
-	main()
+  main()
