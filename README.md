@@ -21,12 +21,27 @@ We have so many algorithms for sorting that have been design over a period of ti
 We often classify sorting alogirhms based on some parameters: 
 
 1. Time Complexity: 
+
 The measure of rate of growth of time taken by an algorithm with respect to input size.	Some algorithm will be relatively faster than others.
 	
-2. Space Complexity/ Memory usage
-- In-place memory:
-Some algorihtm are in-place, they use constant amount of memory to rearrange the elements in the list.  
-- External memory:
+2. Space Complexity/ Memory usage:
+
+ - In-place memory:
+ Some algorihtm are in-place, they use constant amount of memory to rearrange the elements in the list.  
+
+ - External memory:
 
 
- 3. Stability
+3. Stability
+
+
+
+
+
+
+
+
+
+
+
+
